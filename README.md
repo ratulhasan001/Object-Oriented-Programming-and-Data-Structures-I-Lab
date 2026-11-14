@@ -1,4 +1,4 @@
-# oop-data-structures-lab
+# Object-Oriented Programming and Data Structures I Lab
 
 C++ programs from two sessional (lab) courses taken in 2023 for the B.Sc. in Computer Science and Engineering at BAUET: Object-Oriented Programming ([`oop/`](oop)) and Data Structures and Algorithms I ([`DSA/`](DSA)). The OOP folder has one file per weekly lab session. Each file is named with the session number and date (`NN_Lab_DD_MM_YY.cpp`) and covers classes, constructors, friend functions, inheritance, operator overloading, templates and exception handling. The DSA folder implements the basic data structures (linked lists, stack, queue) and the classic sorting algorithms by hand.
 
