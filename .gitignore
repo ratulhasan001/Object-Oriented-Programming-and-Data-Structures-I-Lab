@@ -3,3 +3,12 @@
 *.txt
 *.exe
 *.bin
+
+# OS / editor files
+.DS_Store
+tempCodeRunnerFile.*
+
+# Compiled binaries
+*.out
+*.o
+a.out
