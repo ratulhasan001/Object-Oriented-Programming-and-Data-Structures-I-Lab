@@ -1,6 +1,6 @@
 # Object-Oriented Programming and Data Structures I Lab
 
-C++ programs from two sessional (lab) courses taken in 2023 for the B.Sc. in Computer Science and Engineering at BAUET: Object-Oriented Programming ([`oop/`](oop)) and Data Structures and Algorithms I ([`DSA/`](DSA)). The OOP folder has one file per weekly lab session. Each file is named with the session number and date (`NN_Lab_DD_MM_YY.cpp`) and covers classes, constructors, friend functions, inheritance, operator overloading, templates and exception handling. The DSA folder implements the basic data structures (linked lists, stack, queue) and the classic sorting algorithms by hand.
+C++ programs from two sessional (lab) courses taken in 2023 for the B.Sc. in Computer Science and Engineering at BAUET: Object-Oriented Programming ([`oop/`](oop)) and Data Structures and Algorithms I ([`DSA/`](DSA)). The OOP folder has one file per weekly lab session. Each file is named with the session number and date (`NN_Lab_DD_MM_YY.cpp`) and covers classes, constructors, friend functions, inheritance, operator overloading, templates and exception handling. The DSA folder implements the basic data structures (linked lists, stack, queue, binary search tree) and the classic sorting algorithms by hand, and also keeps the weekly lab-session and practice files.
 
 ## Contents
 
@@ -40,6 +40,29 @@ Many session files hold several short exercises one after another. Earlier exerc
 | [sort_insertion.cpp](DSA/sort_insertion.cpp) | Insertion sort, O(n²) worst case, O(n) on sorted input. |
 | [sort_merge.cpp](DSA/sort_merge.cpp) | Merge sort, O(n log n) time with O(n) extra space. |
 | [sort_quick.cpp](DSA/sort_quick.cpp) | Quick sort with Lomuto partition, O(n log n) on average and O(n²) in the worst case. |
+| [binary_search_tree.cpp](DSA/binary_search_tree.cpp) | Binary search tree with recursive insertion and inorder traversal (prints the keys in sorted order). |
+
+#### [DSA/lab-sessions/](DSA/lab-sessions) – weekly session files
+
+These are the files written during individual lab sessions. Sessions 4–6 (the linked lists) are already covered by the topic files above.
+
+| File | What it does |
+|---|---|
+| [01_array_insert_delete_update.cpp](DSA/lab-sessions/01_array_insert_delete_update.cpp) | Inserts an element at a given position in an array; the deletion and update exercises are commented out. |
+| [02_linear_and_binary_search.cpp](DSA/lab-sessions/02_linear_and_binary_search.cpp) | Linear search and binary search over an array, with a helper that sorts the array first. |
+| [03_sorting_and_linked_list.cpp](DSA/lab-sessions/03_sorting_and_linked_list.cpp) | Bubble, selection and insertion sort, plus a singly linked list (insert at head, tail or position; delete; print) read from input until `-1`. |
+| [07_array_stack_and_postfix.cpp](DSA/lab-sessions/07_array_stack_and_postfix.cpp) | An array-based stack (commented out) and an active postfix-expression evaluator. |
+| [11_lab_final_adjacency_matrix.cpp](DSA/lab-sessions/11_lab_final_adjacency_matrix.cpp) | The lab-final topic list as comments, and an adjacency matrix for a graph with lettered vertices. |
+
+#### [DSA/practice/](DSA/practice) – practice files
+
+Scratch files used while preparing; most of their content is earlier versions kept as comments.
+
+| File | What it does |
+|---|---|
+| [queue_practice.cpp](DSA/practice/queue_practice.cpp) | A circular array queue (commented out) and an active bounded queue built on `std::list`. |
+| [stack_queue_postfix_practice.cpp](DSA/practice/stack_queue_postfix_practice.cpp) | Stack and queue classes and Tower of Hanoi (commented out), and an active postfix evaluator. |
+| [hanoi_merge_quick_sort_practice.cpp](DSA/practice/hanoi_merge_quick_sort_practice.cpp) | Tower of Hanoi and two merge sort versions (commented out), and an active quick sort demo on a fixed array. |
 
 ## Build and run
 
